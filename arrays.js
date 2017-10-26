@@ -6,3 +6,10 @@ function addElementToBeginningOfArray(array, element) {
   return array = [element, ...array];
 
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+
+
+  return array[0] = element; 
+  
+}
