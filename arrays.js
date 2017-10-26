@@ -10,6 +10,7 @@ function addElementToBeginningOfArray(array, element) {
 function destructivelyAddElementToBeginningOfArray(array, element) {
 
 
-  return array[0] = element;
+  array[1] = element;
+  return array; 
 
 }
