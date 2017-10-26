@@ -26,7 +26,7 @@ function  addElementToEndOfArray(array, element) {
 
 function destructivelyAddElementToEndOfArray(array, element) {
 
-  array[array.length-1] = element;
+  array.pop(element);
   return array;
 
 }
@@ -50,3 +50,5 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
 }
+
+
