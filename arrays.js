@@ -28,5 +28,11 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
   array[array.length-1] = element;
   return array;
+
+}
+
+function accessElementInArray(array, index) {
+
+  return array[index];
   
 }
