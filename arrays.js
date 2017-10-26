@@ -22,3 +22,11 @@ function  addElementToEndOfArray(array, element) {
   array.push(element);
   return array;
 }
+
+
+function destructivelyAddElementToEndOfArray(array, element) {
+
+  array[array.length-1] = element;
+  return array;
+  
+}
